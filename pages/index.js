@@ -1,3 +1,4 @@
+import Body from '@/UI/Container/Body'
 import Link from 'next/link'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 function index() {
@@ -16,6 +17,7 @@ function index() {
                         </li>
                     </ul>
                 </nav>
+                <Body/>
             </section>
         </main>
     </div>
