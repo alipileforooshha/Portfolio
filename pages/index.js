@@ -1,11 +1,13 @@
 import Body from '@/UI/Container/Body'
+import Project from '@/UI/Container/Projects/Project'
+import Projects from '@/UI/Container/Projects/Projects'
 import Link from 'next/link'
 import {BsFillMoonStarsFill} from 'react-icons/bs'
 function index() {
   return (
     <div>
         <main className="px-10">
-            <section className="min-h-screen">
+            <section className="min-h-screen text-center mx-auto">
                 <nav className='py-10 mb-10 flex justify-between'>
                     <h1 className=' text-lg'>Ali Pileforooshha</h1>
                     <ul className='flex flex-row item-center content-center'>
@@ -18,6 +20,7 @@ function index() {
                     </ul>
                 </nav>
                 <Body/>
+                <Projects />
             </section>
         </main>
     </div>
